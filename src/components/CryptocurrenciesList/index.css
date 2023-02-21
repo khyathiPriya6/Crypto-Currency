@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.app-heading {
+  color: #00e7ff;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 10px;
+}
+
+.currency-tracker-img {
+  width: 80%;
+}
+
+.currency-list-container {
+  border-radius: 9px;
+  width: 80%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #00e7ff;
+}
+
+.header-container {
+  background-color: #00e7ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin-type-heading {
+  width: 40%;
+  text-align: center;
+}
+
+.coin-type-text {
+  color: #ffffff;
+  font-family: roboto;
+}
+
+.currency-type-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  color: #ffffff;
+  font-family: roboto;
+}
